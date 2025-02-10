@@ -61,9 +61,9 @@ public:
 
 int main() {
 
-    Usuario usuario("JuanPerez", "12345", "juan@example.com");
-    Administrador admin("Admin1", "adminpass", "admin@example.com", "admin@empresa.com");
-    Cliente cliente("MariaGomez", "cliente123", "maria@example.com", "****-****-****-1234");
+    Usuario usuario("JuanPerez", "12345", "juan@hotmail.com");
+    Administrador admin("Admin1", "adminpass", "admin@gmail.com", "admin@carrion.com");
+    Cliente cliente("MariaGomez", "cliente123", "maria@hotmail.com", "****-****-****-1234");
 
     usuario.registrarse();
     usuario.iniciarSesion();
